@@ -5,10 +5,10 @@ module.exports.homelist = function(req, res) {
 
 /*GET 'Location Info' page */
 module.exports.locationInfo = function(req,res){
-    res.render('index', { title: 'Location Info'});
+    res.render('location_info', { title: 'Location Info'});
 };
 
 /*Get 'Add Review' page */
 module.exports.addReview = function(req, res){
-    res.render('index', { title: 'Add Review'});
+    res.render('location_review_form', { title: 'Add Review'});
 };
